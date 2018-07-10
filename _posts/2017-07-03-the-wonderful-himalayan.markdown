@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: main
 title: "My first trip: The wonderful Himalayan"
 img: himalayan.jpg # Add image post (optional)
 date: 2017-07-03 12:55:00 +0300
