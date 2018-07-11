@@ -25,6 +25,8 @@ tag: [Travel, Blogging, Mountains]
     <script>
         $(function(){
             /*var _t = encodeURI(encodeURI(title));*/
+            alert(666);
+            debugger;
             var title = GetQueryString("name");
             var titles = decodeURI(decodeURI(title));
             alert(titles);
