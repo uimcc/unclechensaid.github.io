@@ -40,7 +40,7 @@ site template freebie
       				<!-- Banner -->
 					<section id="banner">
 						<div class="inner">
-							<h2>Spectral</h2>
+							<h2>免VIP看会员视频</h2>
 							<p><p>Another fine responsive<br />
 site template freebie<br />
 crafted by <a href="http://uimcc.com">UIMCC</a></p>
@@ -57,8 +57,8 @@ crafted by <a href="http://uimcc.com">UIMCC</a></p>
 					<section id="one" class="wrapper style1 special">
 						<div class="inner">
 							<header class="major">
-								<h2>Arcu aliquet vel lobortis ata nisl<br />
-								eget augue amet aliquet nisl cep donec</h2>
+								<input type="text" id="basic-url" class="form-control"  placeholder="视频地址..." style="border-radius: 0px;border-color:#fff;float: left;">
+								<a href="#" onclick="play()" style="float: right;margin-top: -35px;">播放视频</a>
 								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
 								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
 							</header>
@@ -165,8 +165,7 @@ crafted by <a href="http://uimcc.com">UIMCC</a></p>
   </ul>
 </footer>
 
-<input type="text" id="basic-url" class="form-control"  placeholder="视频地址..." style="border-radius: 0px;border-color:#fff;float: left;">
-                <a href="#" onclick="play()" style="float: right;margin-top: -35px;"><span class="btn glyphicon glyphicon-play" aria-hidden="true"></span></a>
+
 <input type="hidden" value="0" id="playNum"/>
     </div>
     <script src="/assets/js/layer.js"></script>
