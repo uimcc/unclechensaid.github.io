@@ -19,7 +19,7 @@ crafted by [HTML5 UP](http://html5up.net)
 ">
   <!--[if lte IE 8]><script src="/spectral/js/ie/html5shiv.js"></script><![endif]-->
   <link rel="canonical" href="http://arkadianriver.github.io/spectral/">
-  <link rel="stylesheet" href="http://arkadianriver.github.io/spectral/css/main.css" />
+  <link rel="stylesheet" href="http://arkadianriver.github.io/spectral//css/main.css" />
   <!--[if lte IE 8]><link rel="stylesheet" href="http://arkadianriver.github.io/spectral/css/ie8.css" /><![endif]-->
   <!--[if lte IE 9]><link rel="stylesheet" href="http://arkadianriver.github.io/spectral/css/ie9.css" /><![endif]-->
   <link rel="alternate" type="application/rss+xml" title="Spectral" href="http://arkadianriver.github.io/spectral/feed.xml">
