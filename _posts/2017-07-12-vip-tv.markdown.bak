@@ -1,6 +1,6 @@
 ---
 layout: 
-title: "My first trip: The wonderful Himalayan"
+title: "tv"
 img: tv.jpg # Add image post (optional)
 date: 2017-07-12 12:55:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
@@ -15,11 +15,10 @@ tag: [Travel, Blogging, Mountains]
   <title>Spectral</title>
   <meta name="description" content="Another fine responsive  
 site template freebie  
-crafted by [HTML5 UP](http://html5up.net)
 ">
   <!--[if lte IE 8]><script src="/spectral/js/ie/html5shiv.js"></script><![endif]-->
   <link rel="canonical" href="http://arkadianriver.github.io/spectral/">
-  <link rel="stylesheet" href="http://arkadianriver.github.io/spectral/css/main.css" />
+  <link rel="stylesheet" href="/assets/css/spe/main.css" />
   <!--[if lte IE 8]><link rel="stylesheet" href="http://arkadianriver.github.io/spectral/css/ie8.css" /><![endif]-->
   <!--[if lte IE 9]><link rel="stylesheet" href="http://arkadianriver.github.io/spectral/css/ie9.css" /><![endif]-->
   <link rel="alternate" type="application/rss+xml" title="Spectral" href="http://arkadianriver.github.io/spectral/feed.xml">
@@ -33,44 +32,8 @@ crafted by [HTML5 UP](http://html5up.net)
 
       <!-- Header -->
 <header id="header" class="alt">
-  <h1><a href="/spectral/index.html">Spectral</a></h1>
-  <nav id="nav">
-    <ul>
-      <li class="special">
-        <a href="#menu" class="menuToggle"><span>Menu</span></a>
-        <div id="menu">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            
-            
-            <li><a href="/spectral/elements.html">Elements</a></li>
-            
-            
-            
-            
-            
-            <li><a href="/spectral/generic.html">Generic</a></li>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            <li><a href="#">Sign Up</a></li>
-            <li><a href="#">Log In</a></li>
-            <li><a href="/spectral/feed.xml"
-                   class="icon fa-feed"> RSS Feed</a></li>
-          </ul>
-        </div>
-      </li>
-    </ul>
-  </nav>
+  <h1><a href="/spectral/index.html">免VIP看会员视频</a></h1>
+  
 </header>
 
 
@@ -80,7 +43,7 @@ crafted by [HTML5 UP](http://html5up.net)
 							<h2>Spectral</h2>
 							<p><p>Another fine responsive<br />
 site template freebie<br />
-crafted by <a href="http://html5up.net">HTML5 UP</a></p>
+crafted by <a href="http://uimcc.com">UIMCC</a></p>
 </p>
 							<ul class="actions">
 								<li><a href="#" class="button special">Activate</a></li>
@@ -131,42 +94,7 @@ crafted by <a href="http://html5up.net">HTML5 UP</a></p>
 						</section>
 					</section>
 
-				<!-- Three -->
-					<section id="three" class="wrapper style3 special">
-						<div class="inner">
-							<header class="major">
-								<h2>Accumsan mus tortor nunc aliquet</h2>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
-							</header>
-							<ul class="features">
-								<li class="icon fa-paper-plane-o">
-									<h3>Arcu accumsan</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-laptop">
-									<h3>Ac Augue Eget</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-code">
-									<h3>Mus Scelerisque</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-headphones">
-									<h3>Mauris Imperdiet</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-heart-o">
-									<h3>Aenean Primis</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-								<li class="icon fa-flag-o">
-									<h3>Tortor Ut</h3>
-									<p>Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat.</p>
-								</li>
-							</ul>
-						</div>
-					</section>
+				
 
 				<!-- CTA -->
 					<section id="cta" class="wrapper style4">
@@ -236,15 +164,6 @@ crafted by <a href="http://html5up.net">HTML5 UP</a></p>
   </ul>
 </footer>
 
-
-      <!-- Scripts -->
-<script src="http://arkadianriver.github.io/spectral/js/jquery.min.js"></script>
-<script src="http://arkadianriver.github.io/spectral/js/jquery.scrollex.min.js"></script>
-<script src="http://arkadianriver.github.io/spectral/js/jquery.scrolly.min.js"></script>
-<script src="http://arkadianriver.github.io/spectral/js/skel.min.js"></script>
-<script src="http://arkadianriver.github.io/spectral/js/util.js"></script>
-<!--[if lte IE 8]><script src="http://arkadianriver.github.io/spectral/js/ie/respond.min.js"></script><![endif]-->
-<script src="http://arkadianriver.github.io/spectral/js/main.js"></script>
 
 
     </div>
