@@ -22,6 +22,7 @@ site template freebie
   <!--[if lte IE 8]><link rel="stylesheet" href="http://arkadianriver.github.io/spectral/css/ie8.css" /><![endif]-->
   <!--[if lte IE 9]><link rel="stylesheet" href="http://arkadianriver.github.io/spectral/css/ie9.css" /><![endif]-->
   <link rel="alternate" type="application/rss+xml" title="Spectral" href="http://arkadianriver.github.io/spectral/feed.xml">
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
 </head>
 
 
@@ -46,7 +47,7 @@ site template freebie<br />
 crafted by <a href="http://uimcc.com">UIMCC</a></p>
 </p>
 							<ul class="actions">
-								<li><a href="#" class="button special">Activate</a></li>
+								<li><a href="#" class="button special">返回主页</a></li>
 							</ul>
 						</div>
 						<a href="#one" class="more scrolly">开始观看</a>
@@ -57,10 +58,10 @@ crafted by <a href="http://uimcc.com">UIMCC</a></p>
 					<section id="one" class="wrapper style1 special">
 						<div class="inner">
 							<header class="major">
-								<input type="text" id="basic-url" class="form-control"  placeholder="视频地址..." style="border-radius: 0px;border-color:#fff;float: left;">
-								<a href="#" onclick="play()" style="float: right;margin-top: -35px;">播放视频</a>
-								<p>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</p>
+								<input type="text" id="basic-url"   placeholder="视频地址..." style="border-radius: 0px;border-color:#fff;float: left;">
+								<a  onclick="pla()" style="float: right;margin-top: -35px;border-bottom: dotted 0px;">播放视频</a>
+								<span>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
+								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</span>
 							</header>
 							<ul class="icons major">
 								<li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
@@ -170,14 +171,13 @@ crafted by <a href="http://uimcc.com">UIMCC</a></p>
 <input type="hidden" value="0" id="playNum"/>
     </div>
     <script src="/assets/js/layer.js"></script>
-    <script>
+    <script type="text/javascript">
 
-        $(function(){
-            layer.alert('hi,陌生而又熟悉的你，免费看vip视频网站又更新咯！这一次的更新你还喜欢吗？要是喜欢的话就分享给你的朋友吧')
-        })
+   
 
-        function play(){
-            var url=$("#basic-url").val()
+        function pla(){
+		alert(666);
+            var url=$("#basic-url").val();
             if(!url){
                 layer.msg("要输入视频地址哟");
                 return;
@@ -237,7 +237,7 @@ crafted by <a href="http://uimcc.com">UIMCC</a></p>
 
 
         }
-
+</script>
   </body>
 
 </html>
