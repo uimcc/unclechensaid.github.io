@@ -177,8 +177,7 @@ crafted by <a href="http://uimcc.com">UIMCC</a></p>
         })
 
         function play(){
-	alert("欢迎");
-            var url=$("#basic-url").val();
+            var url=$("#basic-url").val()
             if(!url){
                 layer.msg("要输入视频地址哟");
                 return;
