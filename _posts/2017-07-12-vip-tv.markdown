@@ -1,9 +1,15 @@
+---
+layout: 
+title: "免VIP看会员视频"
+img: tv.jpg # Add image post (optional)
+date: 2017-07-12 12:55:00 +0300
+description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
+tag: [Travel, Blogging, Mountains]
+---
 <html>
-
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Spectral</title>
     <meta name="description" content="Another fine responsive
 site template freebie  
 ">
