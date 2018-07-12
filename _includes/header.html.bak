@@ -2,7 +2,7 @@
 <header class="main_header">
   <a href="{{site.baseurl}}/" class="logo">{% if site.logo %}{{site.logo}}{% else %}UI<span>MCC</span>{% endif %}</a>
   <nav class="main_menu">
-    <a href="{{site.baseurl}}/_pages/awm/">AWM</a>
+    <a href="{{site.baseurl}}/_pages/awm/">AWM 工作室</a>
     <!--<a href="{{site.baseurl}}/contact/">Contact</a>-->
   </nav>
 </header> <!-- End Section Header -->
