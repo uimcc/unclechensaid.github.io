@@ -54,10 +54,10 @@ site template freebie
     <section id="one" class="wrapper style1 special">
         <div class="inner">
             <header class="major">
-                <input type="text" id="basic-url" class="form-control"  placeholder="视频地址..." style="border-radius: 0px;border-color:#fff;float: left;">
-                <a href="#" onclick="play()" style="float: right;margin-top: -35px;border-bottom: dotted 0px; */">播放视频</a>
-								<span>Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend<br />
-								fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.</span>
+                <input type="text" id="basicurl" class="form-control"  placeholder="视频地址..." style="border-radius: 0px;border-color:#fff;float: left;">
+                <a href="#" onclick="play()" style="float: right;margin-top: -32px;border-bottom: dotted 0px; */">播放视频</a>
+								<span>会员视频播放采用第三方接口进行解析播放，播放中弹出的广告均与本站无关<br />
+								如若视频不能正常播放，请尝试重新点击播放视频按钮进行播放</span>
             </header>
             <ul class="icons major">
                 <li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
