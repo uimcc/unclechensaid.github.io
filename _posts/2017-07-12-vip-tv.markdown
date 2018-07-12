@@ -378,6 +378,11 @@ site template freebie
     </footer>
     <input type="hidden" value="0" id="playNum"/>
 </div>
+<script
+        src="http://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
+<script src="https://cdn.bootcss.com/layer/3.1.0/layer.js"></script>
 <script src="/assets/js/jquery-3.2.1.min.js"></script>
 <script src="/assets/js/layer.js"></script>
 <script type="text/javascript">
