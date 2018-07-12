@@ -191,7 +191,7 @@ site template freebie
 	  shade: 0.8,
 	  closeBtn: 0,
 	  shadeClose: true,
-	  content: newTvAddr
+	  content: '//player.youku.com/embed/XMjY3MzgzODg0'
 	});
         <!--if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
             layer.open({
