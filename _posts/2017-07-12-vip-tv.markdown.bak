@@ -58,7 +58,7 @@ tag: [Travel, Blogging, Mountains]
 			  shade: 0.8,
 			  closeBtn: 0,
 			  shadeClose: true,
-			  content: newTvAddr
+			  content:  [newTvAddr, 'yes']
 			});
 		}
 	</script>
@@ -81,15 +81,14 @@ tag: [Travel, Blogging, Mountains]
     <section id="banner">
         <div class="inner">
             <h2>免VIP看会员视频</h2>
-            <p><p>Another fine responsive<br />
-            site template freebie<br />
-            crafted by <a href="http://uimcc.com">UIMCC</a></p>
+            <p><p>每个人的心中都有一部电影<br />
+            我希望它是不收费的<br />
+            这既是 <a href="http://uimcc.com">UIMCC</a></p>
             </p>
             <ul class="actions">
-                <li><a href="#" class="button special">Activate</a></li>
+                <li><a href="#one" class="button special">开始观看</a></li>
             </ul>
         </div>
-        <a href="#one" class="more scrolly">开始观看</a>
     </section>
 
 
@@ -99,7 +98,7 @@ tag: [Travel, Blogging, Mountains]
 		<input type="hidden" value="0" id="playNum"/>
 		<ul class="actions vertical">
                 <li><input type="text" id="basicurl"   placeholder="视频地址..." style="border-radius: 0px;border-color:#fff;float: left;"></li>
-                <li><a href="#" onclick="aaa()" class="button fit">Learn More</a></li>
+                <li><a href="#" onclick="aaa()" class="button fit">播放视频</a></li>
 		</ul>
 		<span>视频采用第三方接口进行播放，播放中出现的广告均与本站无关<br />
 		如遇视频不能正常播放请重新点击播放视频按钮.</span>
@@ -123,9 +122,9 @@ tag: [Travel, Blogging, Mountains]
         </section>
         <section class="spotlight">
             <div class="image"><img src="/assets/img/tv-2.png" alt="" /></div><div class="content">
-            <h2>Tortor dolore feugiat<br />
-                elementum magna</h2>
-            <p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
+            <h2>获取会员视频地址方式二<br />
+                腾讯视频为例</h2>
+            <p>打开腾讯视频网站，找到需要观看的会员视频，点击进去播放，在浏览器上方地址栏复制视频地址</p>
         </div>
         </section>
          <!--<section class="spotlight">
@@ -143,12 +142,12 @@ tag: [Travel, Blogging, Mountains]
     <section id="cta" class="wrapper style4">
         <div class="inner">
             <header>
-                <h2>Arcue ut vel commodo</h2>
-                <p>Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla.</p>
+                <h2>welcome to UIMCC</h2>
+                <p>体验不一样的事物，遇兴趣爱好相投的人.</p>
             </header>
             <ul class="actions vertical">
-                <li><a href="#" class="button fit special">Activate</a></li>
-                <li><a href="#" class="button fit">Learn More</a></li>
+                <li><a href="#one" class="button fit special">继续观看</a></li>
+                <li><a href="https://uimcc.com" class="button fit">回到主页</a></li>
             </ul>
         </div>
     </section>
@@ -178,12 +177,11 @@ tag: [Travel, Blogging, Mountains]
             <li>&copy;
 
 
-                2016,
+                2017,
 
-                2017
-                Your Name</li>
-            <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
-            <li>Built with: <a href="http://jekyllrb.com" target="_blank">Jekyll</a></li>
+                2018
+                UIMCC</li>
+            <li>Design: <a href="http://uimcc.com" target="_blank">HTML5 UP</a></li>
         </ul>
     </footer>
 </div>
