@@ -50,15 +50,18 @@ tag: [Travel, Blogging, Mountains]
 			}
 			$("#playNum").val(num);
 			var newTvAddr=v+url;
+			
 			layer.open({
-			  type: 2,
-			  offset: '100px',
-			  title: false,
-			  area: ['630px', '360px'],
-			  shade: 0.8,
-			  closeBtn: 0,
-			  shadeClose: true,
-			  content:  [newTvAddr, 'yes']
+			    type: 2,
+			    title: true,
+			    area: ['90%', '90%'],
+			    shade: 0.3,
+			    offset: '100px',
+			    closeBtn: 1,
+			    shadeClose: true,
+			    scrollbar: false,
+			    shadeClose: true,
+			    content:  [newTvAddr, 'yes']
 			});
 		}
 	</script>

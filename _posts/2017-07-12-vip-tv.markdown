@@ -130,13 +130,13 @@ tag: [Travel, Blogging, Mountains]
             <p>打开腾讯视频网站，找到需要观看的会员视频，点击进去播放，在浏览器上方地址栏复制视频地址</p>
         </div>
         </section>
-         <!--<section class="spotlight">
+         <section class="spotlight">
             <div class="image"><img src="/assets/img/tv-3.png" alt="" /></div><div class="content">
             <h2>获取会员视频地址方式三<br />
                 优酷APP视频为例</h2>
             <p>手机打开优酷视频APP，找到需要观看的会员影片，点击播放，一般视频下面都会有分享按钮，点击分享选择复制链接</p>
         </div>
-        </section>-->
+        </section>
     </section>
 
 
