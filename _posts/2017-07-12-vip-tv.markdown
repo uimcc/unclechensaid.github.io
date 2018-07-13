@@ -10,13 +10,13 @@ tag: [Travel, Blogging, Mountains]
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content="Another fine responsivesite template freebie">
-    <link rel="stylesheet" href="../assets/css/spe/main.css" />
-    <link rel="stylesheet" href="../assets/css/layer.css" />
+    <link rel="stylesheet" href="/assets/css/spe/main.css" />
+    <link rel="stylesheet" href="/assets/css/layer.css" />
 	<!-- <link rel="stylesheet" href="https://cdn.bootcss.com/layer/3.1.0/theme/default/layer.css" /> -->
 	<!-- <script src="https://cdn.bootcss.com/jquery/2.2.0/jquery.js" ></script> -->
-	<script src="../assets/js/jquery-3.2.1.min.js" ></script>
+	<script src="/assets/js/jquery-3.2.1.min.js" ></script>
 	<!-- <script src="https://cdn.bootcss.com/layer/3.1.0/layer.js"></script> -->
-	<script src="../assets/js/layer.js"></script>
+	<script src="/assets/js/layer.js"></script>
 	<script type="text/javascript">
 
 		function aaa(){
@@ -113,14 +113,14 @@ tag: [Travel, Blogging, Mountains]
     <!-- Two -->
     <section id="two" class="wrapper alt style2">
         <section class="spotlight">
-            <div class="image"><img src="../assets/img/tv-1.png" alt="" /></div><div class="content">
+            <div class="image"><img src="/assets/img/tv-1.png" alt="" /></div><div class="content">
             <h2>获取会员视频地址方式一<br />
                 腾讯视频为例</h2>
             <p>打开腾讯视频网站，找到需要观看的会员视频，先不要点击进去，在需要观看的影片上鼠标右击选择:复制链接地址，手机端长按影片选择:复制链接地址</p>
         </div>
         </section>
         <section class="spotlight">
-            <div class="image"><img src="../assets/img/tv-2.png" alt="" /></div><div class="content">
+            <div class="image"><img src="/assets/img/tv-2.png" alt="" /></div><div class="content">
             <h2>Tortor dolore feugiat<br />
                 elementum magna</h2>
             <p>Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.</p>
