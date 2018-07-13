@@ -99,7 +99,7 @@ tag: [Travel, Blogging, Mountains]
 		<input type="hidden" value="0" id="playNum"/>
 		<ul class="actions vertical">
                 <li><input type="text" id="basicurl"   placeholder="视频地址..." style="border-radius: 0px;border-color:#fff;float: left;"></li>
-                <li><a href="#" onclick="aaa()" class="button fit">播放视频</a></li>
+                <li><a href="#" onclick="aaa()" class="button fit">Learn More</a></li>
 		</ul>
 		<span>视频采用第三方接口进行播放，播放中出现的广告均与本站无关<br />
 		如遇视频不能正常播放请重新点击播放视频按钮.</span>
