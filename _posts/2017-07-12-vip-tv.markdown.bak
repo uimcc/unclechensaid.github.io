@@ -31,20 +31,20 @@ tag: [Travel, Blogging, Mountains]
 			var num=$("#playNum").val();
 			num++;
 			if(num==1){
-				v="jiexi.92fz.cn/player/vip.php?url=";
+				v="http://jiexi.92fz.cn/player/vip.php?url=";
 			}else if(num==2){
-				v="jiexi.92fz.cn/player/vip.php?url=";
+				v="http://jiexi.92fz.cn/player/vip.php?url=";
 				/*v="http://api.662820.com/xnflv/index.php?url=";*/
 			}else if(num==3){
-				v="www.0335haibo.com/yun.php?url=";
+				v="http://www.0335haibo.com/yun.php?url=";
 			}else if(num==4){
-				v="aikan-tv.com/?url=";
+				v="http://aikan-tv.com/?url=";
 			}else if(num==5){
-				v="api.nepian.com/ckparse/?url=";
+				v="http://api.nepian.com/ckparse/?url=";
 			}else if(num==6){
-				v="api.47ks.com/webcloud/?v=";
+				v="http://api.47ks.com/webcloud/?v=";
 			}else if(num==7){
-				v="api.xfsub.com/index.php?url=";
+				v="http://api.xfsub.com/index.php?url=";
 			}else{
 				num=0;
 			}
