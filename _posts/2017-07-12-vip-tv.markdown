@@ -1,5 +1,5 @@
 ---
-layout: submain
+layout: 
 title: "免VIP看会员视频"
 img: tv2.jpg # Add image post (optional)
 date: 2017-07-12 12:55:00 +0300
@@ -98,12 +98,15 @@ tag: [Travel, Blogging, Mountains]
                 <li><input type="text" id="basicurl"   placeholder="视频地址..." style="border-radius: 0px;border-color:#fff;float: left;"></li>
                 <li><a href="#" onclick="aaa()" class="button fit">播放视频</a></li>
 		</ul>
-		<span>视频采用第三方接口进行播放，播放中出现的广告均与本站无关<br />
+		<span>本站采用第三方播放器支持奇艺视频 腾讯 优酷 土豆 芒果 乐视 搜狐等会员视频播放，播放中出现的广告均与本站无关<br />
 		如遇视频不能正常播放请重新点击播放视频按钮.</span>
             <ul class="icons major">
-                <li><span class="icon fa-diamond major style1"><span class="label">Lorem</span></span></li>
-                <li><span class="icon fa-heart-o major style2"><span class="label">Ipsum</span></span></li>
-                <li><span class="icon fa-code major style3"><span class="label">Dolor</span></span></li>
+                <li><img src="/assets/img/qq.png"></li>
+                <li><img src="/assets/img/letvlogo.png"></li>
+		<li><img src="/assets/img/iqiyilogo.png"></li>
+		<li><img src="/assets/img/sohulogo.png"></li>
+		<li><img src="/assets/img/youkulogo.png"></li>
+		<li>更多</li>
             </ul>
             <a href="#two" class="more scrolly">如何获取视频地址？</a>
         </div>
@@ -155,20 +158,7 @@ tag: [Travel, Blogging, Mountains]
     <footer id="footer">
         <ul class="icons">
 
-            <li><a target="_blank" href="https://twitter.com/<username>" class="icon fa-twitter"
-                    ><span class="label">twitter</span></a></li>
-
-            <li><a target="_blank" href="https://github.com/<username>" class="icon fa-github"
-                    ><span class="label">github</span></a></li>
-
-            <li><a target="_blank" href="https://linkedin.com/in/<username>" class="icon fa-linkedin-square"
-                    ><span class="label">linkedin-square</span></a></li>
-
-            <li><a target="_blank" href="https://facebook.com/<username>" class="icon fa-facebook-official"
-                    ><span class="label">facebook-official</span></a></li>
-
-            <li><a target="_blank" href="https://plus.google.com/u/0/+<username>" class="icon fa-google-plus-square"
-                    ><span class="label">google-plus-square</span></a></li>
+           
 
         </ul>
         <ul class="copyright">
@@ -180,6 +170,7 @@ tag: [Travel, Blogging, Mountains]
                 2018
                 免VIP看会员视频</li>
             <li>Design: <a href="http://uimcc.com" target="_blank">UIMCC</a></li>
+	    <li><script src="https://s19.cnzz.com/z_stat.php?id=1274141509&web_id=1274141509" language="JavaScript"></script></li>
         </ul>
     </footer>
 </div>
