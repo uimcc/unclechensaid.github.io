@@ -50,7 +50,7 @@ tag: [Travel, Blogging, Mountains]
 			}
 			$("#playNum").val(num);
 			var newTvAddr=v+url;
-			
+			alert(newTvAddr);
 			layer.open({
 			    type: 2,
 			    title: true,
