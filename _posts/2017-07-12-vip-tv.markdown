@@ -31,16 +31,17 @@ tag: [Travel, Blogging, Mountains]
 			var num=$("#playNum").val();
 			num++;
 			if(num==1){
-				v="https://v.60qu.com/v1/?url";
+				v="https://v.60qu.com/v1/?url=";
 			}else if(num==2){
-				v="https://v.60qu.com/v2/?url";
+				v="https://v.60qu.com/v2/?url=";
 			}else if(num==3){
-				v="https://v.60qu.com/v3/?url";
+				v="https://v.60qu.com/v3/?url=";
 			}else if(num==4){
 				v="https://cdn.yangju.vip/k/?url=";
 			}else if(num==5){
 				v="https://ejiafarm.com/jx.php?url=";
 			}else{
+				v="https://cdn.yangju.vip/k/?url=";
 				num=0;
 			}
 			$("#playNum").val(num);
@@ -48,10 +49,10 @@ tag: [Travel, Blogging, Mountains]
 			alert(newTvAddr);
 			layer.open({
 			    type: 2,
-			    title: true,
+			    title: 祝君观影愉快,
 			    area: ['90%', '90%'],
 			    shade: 0.3,
-			    offset: '100px',
+			    offset: '30px',
 			    closeBtn: 1,
 			    shadeClose: true,
 			    scrollbar: false,
