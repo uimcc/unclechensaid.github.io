@@ -12,6 +12,7 @@ tag: [Travel, Blogging, Mountains]
     <meta name="description" content="Another fine responsivesite template freebie">
     <link rel="stylesheet" href="/assets/css/spe/main.css" />
     <link rel="stylesheet" href="/assets/css/layer.css" />
+    <title>蚂蚁花呗&信用卡兑现 UIMCC.COM</title>
 	<!-- <link rel="stylesheet" href="https://cdn.bootcss.com/layer/3.1.0/theme/default/layer.css" /> -->
 	<!-- <script src="/assets/js/jquery-3.2.1.min.js" ></script> -->
 	<!--<script src="/assets/js/layer.js"></script> -->
@@ -20,7 +21,7 @@ tag: [Travel, Blogging, Mountains]
 </head>
 
 
-<body class="landing" style="background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/assets/img/dx0.jpg); background-attachment: fixed;
+<body  style="background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/assets/img/dx0.jpg); background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
