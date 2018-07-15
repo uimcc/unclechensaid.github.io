@@ -57,11 +57,20 @@ tag: [Travel, Blogging, Mountains]
         <div class="inner">
 		<input type="hidden" value="0" id="playNum"/>
 		<ul class="actions vertical">
-                <li>
-					<h2>郑玉冰浙江省杭州市25岁自由职业者：<br /></h2>
-					<p>有人说，出去玩浪费钱。我问他，那你浪费了多少假期？
-趁年轻，想花就花，大不了分期还嘛。#</p>
-				</li>
+			<li>
+				<h2>“写给生活爱凑合的你”<br /></h2>
+				<p>别将就了，吃多久外卖盒饭了。用花呗去国外爽翻你的胃！</p>
+			</li>
+						<li>
+				<h2>“写给持家有道的你”<br /></h2>
+				<p>别省了，生活不止柴米油盐。用花呗活出美美哒自己！</p>
+			</li>
+						<li>
+				<h2>“写给低头族的你”<br /></h2>
+				<p>别点赞了，多久没好好说话了。用花呗重新热恋！</p>
+			</li>
+
+
                 
 		</ul>
 		<br/>
@@ -77,13 +86,13 @@ tag: [Travel, Blogging, Mountains]
     <section id="two" class="wrapper alt style2">
         <section class="spotlight">
             <div class="image"><img src="/assets/img/dx1.jpg" alt="" /></div><div class="content">
-            <h2>支付宝-蚂蚁花呗<br /></h2>
+            <h2>支付宝-蚂蚁花呗兑现<br /></h2>
             <p>以前总想着买自己想要的东西，时间过了我却不是原来的那个我，后来想#这就是错过吧#</p>
         </div>
         </section>
         <section class="spotlight">
             <div class="image"><img src="/assets/img/dx2.jpg" alt="" /></div><div class="content">
-            <h2>信用卡</h2>
+            <h2>信用卡兑现</h2>
             <p>有意义的东西值得我们去追寻，不要因为顾虑而被阻止</p>
         </div>
         </section>
