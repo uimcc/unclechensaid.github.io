@@ -1,5 +1,5 @@
 ---
-layout: 
+layout:
 title: "花生日记分享赚佣金"
 img: tv2.jpg # Add image post (optional)
 date: 2018-07-21 12:55:00 +0300
@@ -62,7 +62,7 @@ tag: [Travel, Blogging, Mountains]
                     <li><a href="#pricing">角色</a></li>
                     <li><a href="#download">下载</a></li>
                     <li><a href="#contact">联系我们</a></li>
-		    <li><a href="https://uimcc.com/">UIMCC</a></li>
+                    <li class="audio-toggle"><a href="https://uimcc.com/"><i class="fa fa-volume-up"></i>UIMCC</a></li>
                 </ul>
             </div> <!-- .navbar-collapse -->
         </div>
@@ -311,7 +311,7 @@ tag: [Travel, Blogging, Mountains]
                                     <div class="pricing-table-footer block-light">
                                         <a class="btn btn-primary" href="#download">下载</a>
                                     </div>
-                                </div <!-- .pricing-table -->>
+                                </div>
                             </div>
                         </div>
                     </div> <!-- .section-content -->
@@ -401,7 +401,7 @@ tag: [Travel, Blogging, Mountains]
             <li><a href="/assets/img/hsrj/hsrj2.3.0.pdf" target="_blank" rel="nofollow">花生日记2.3.0版本使用攻略</a></li>
         </ul>
         <p class="site-footer-copyright">© Copyright 2017 @ <a href="http://uimcc.com" target="_blank">UIMCC</a> | 花生日记 all rights reserved.</p>
-	<script src="https://s19.cnzz.com/z_stat.php?id=1274141509&web_id=1274141509" language="JavaScript"></script>
+        <script src="https://s19.cnzz.com/z_stat.php?id=1274141509&web_id=1274141509" language="JavaScript"></script>
     </div>
 </footer> <!-- .site-footer -->
 </div>
