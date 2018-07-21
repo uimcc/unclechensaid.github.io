@@ -353,7 +353,7 @@ tag: [Travel, Blogging, Mountains]
 
                     <div class="icon-box _left">
                         <div class="icon-box-media">
-                            <img src="/assets/img/pin.png" alt="" data-sr="bottom">
+                            <img src="/assets/img/hsrj/pin.png" alt="" data-sr="bottom">
                         </div>
                         <div class="icon-box-heading">
                             <h4>微信客服</h4><h6>zff19950808</h6>
