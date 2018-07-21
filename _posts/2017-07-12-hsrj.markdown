@@ -55,7 +55,7 @@ tag: [Travel, Blogging, Mountains]
             </div> <!-- .navbar-header -->
 
             <div class="collapse navbar-collapse" id="navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
+                <ul class="nav navbar-nav navbar-right" style="margin-top: 40px;">
                     <li class="active"><a href="#home" title="花生日记官网">首页</a></li>
                     <li><a href="#about">关于我们</a></li>
                     <li><a href="#brief_1">简介</a></li>
@@ -353,7 +353,7 @@ tag: [Travel, Blogging, Mountains]
 
                     <div class="icon-box _left">
                         <div class="icon-box-media">
-                            <img src="Picture/pin.png" alt="" data-sr="bottom">
+                            <img src="/assets/img/pin.png" alt="" data-sr="bottom">
                         </div>
                         <div class="icon-box-heading">
                             <h4>微信客服</h4><h6>zff19950808</h6>
