@@ -6514,6 +6514,7 @@ form._default textarea {
   .navbar-right {
     float: none !important;
     margin: 7.5px -15px !important;
+	margin-top: 40px;
   }
 }
 

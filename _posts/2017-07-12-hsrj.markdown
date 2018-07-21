@@ -62,7 +62,7 @@ tag: [Travel, Blogging, Mountains]
                     <li><a href="#pricing">角色</a></li>
                     <li><a href="#download">下载</a></li>
                     <li><a href="#contact">联系我们</a></li>
-                    <li class="audio-toggle"><a href="https://uimcc.com/"><i class="fa fa-volume-up"></i>UIMCC</a></li>
+                    <li class="audio-toggle"><a href="https://uimcc.com/"><i class=""></i>UIMCC</a></li>
                 </ul>
             </div> <!-- .navbar-collapse -->
         </div>
@@ -276,7 +276,7 @@ tag: [Travel, Blogging, Mountains]
                                 <div class="pricing-table">
                                     <div class="pricing-table-header block-primary">
                             <span class="pricing-table-badge">
-                              <i class="fa fa-star"></i>
+                              <i class=""></i>
                             </span>
                                         <h5 class="pricing-table-caption">SVIP</h5>
                                         <h2 class="pricing-table-title">超级会员</h2>
@@ -344,7 +344,7 @@ tag: [Travel, Blogging, Mountains]
     <div class="container">
         <div class="section-heading text-center">
             <h2>联系我们</h2>
-            <p>任何使用问题，团队建设问题，运营商如何加入问题，可以咨询我们客服微信:belvme</p>
+            <p>任何使用问题，团队建设问题，运营商如何加入问题，可以咨询我们客服微信:zff19950808</p>
         </div>
         <div class="row section-content m-t-60-sm-min">
             <div class="col-sm-6 col-md-5">
@@ -356,10 +356,10 @@ tag: [Travel, Blogging, Mountains]
                             <img src="Picture/pin.png" alt="" data-sr="bottom">
                         </div>
                         <div class="icon-box-heading">
-                            <h4>公司微信客服</h4><h6>belvme</h6>
+                            <h4>微信客服</h4><h6>zff19950808</h6>
                         </div>
                         <div class="icon-box-content font-sub font-italic">
-                            <img src="Picture/WeChat.png" alt="" data-sr="bottom">
+                            <img src="/assets/img/hsrj/WeChat.png" alt="" data-sr="bottom">
                             <br>
                             <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;微信扫一扫</span>
                         </div>
