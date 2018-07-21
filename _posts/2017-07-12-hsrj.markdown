@@ -404,6 +404,7 @@ tag: [Travel, Blogging, Mountains]
             <li><a href="/assets/img/hsrj/hsrj2.3.0.pdf" target="_blank" rel="nofollow">花生日记2.3.0版本使用攻略</a></li>
         </ul>
         <p class="site-footer-copyright">© Copyright 2017 @ <a href="http://uimcc.com" target="_blank">UIMCC</a> | 花生日记 all rights reserved.</p>
+	<script src="https://s19.cnzz.com/z_stat.php?id=1274141509&web_id=1274141509" language="JavaScript"></script>
     </div>
 </footer> <!-- .site-footer -->
 </div>
