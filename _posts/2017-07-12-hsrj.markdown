@@ -410,7 +410,7 @@ tag: [Travel, Blogging, Mountains]
 </div>
 </div>
 
-<script src="/assets/js/jquery-3.2.1.min.js"></script>
+<script src="/assets/js/hsrj/jquery-1.11.3.min.js"></script>
 <script src='/assets/js/hsrj/bootstrap.min.js'></script>
 <script src='/assets/js/hsrj/plugin.js'></script>
 <script src='/assets/js/hsrj/variable.js'></script>
