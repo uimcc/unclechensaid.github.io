@@ -7,7 +7,7 @@ description: 电影 会员 优惠券 兑现 免费 福利 代购 服务 原创�
 permalink: ':title/'
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
+encoding: UTF-8
 # Banner settings
 video: mountains.mp4 # add banner video. Add your video file to the folder video
 banner-title: # add banner title
