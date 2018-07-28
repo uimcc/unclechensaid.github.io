@@ -101,7 +101,7 @@ tag: [Travel, Blogging, Mountains]
             <p><p>每个人的心中都有一部电影<br />
             我希望它是不收费的<br />
             这既是 <a href="http://uimcc.com">UIMCC</a><br />
-	    通告：<a href="http://uimcc.com/hsrj/">全国代理招募【注册就送SVIP】，想赚钱了解下</a>
+	    通告：<a href="http://uimcc.com/hsrj">全国代理招募【注册就送SVIP】，想赚钱了解下</a>
 	    </p>
             </p>
             <ul class="actions">
