@@ -1,5 +1,5 @@
 ---
-layout: submain
+layout: 
 title: "蚂蚁花呗&信用卡兑现"
 img: dx1.jpg # Add image post (optional)
 date: 2018-07-16 12:55:00 +0300
