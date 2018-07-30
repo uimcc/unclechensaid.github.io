@@ -9,7 +9,7 @@ tag: [Travel, Blogging, Mountains]
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Another fine responsivesite template freebie">
+    <meta name="description" content="在线服务蚂蚁花呗套现 花呗兑现 信用卡兑现 信用卡套现 安全可靠，诚信至上 UIMCC.COM">
     <link rel="stylesheet" href="/assets/css/spe/main.css" />
     <link rel="stylesheet" href="/assets/css/layer.css" />
     <title>蚂蚁花呗&信用卡兑现 UIMCC.COM</title>

@@ -9,7 +9,7 @@ tag: [Travel, Blogging, Mountains]
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="Another fine responsivesite template freebie">
+    <meta name="description" content="全网VIP视频免费看，腾讯视频 爱奇艺视频 优酷视频等 免 VIP 看电影 UIMCC.COM">
     <link rel="stylesheet" href="/assets/css/spe/main.css" />
     <link rel="stylesheet" href="/assets/css/layer.css" />
     <title>免VIP看会员视频 UIMCC.COM</title>
