@@ -117,7 +117,7 @@ tag: [Travel, Blogging, Mountains]
 		<ul class="actions vertical">
                 <li><input type="text" id="basicurl" value="https://v.youku.com/v_show/id_XMzcwNjg5MDUyNA==.html?spm=a2hmv.20009921.yk-slide-86993.5~5!4~5~5!2~A"  placeholder="视频地址..." style="border-radius: 0px;border-color:#fff;float: left;"></li>
                 <li><a href="#" onclick="aaa()" class="button fit">播放视频</a></li>
-				<li><a href="http://uimcc.com/hsrj" style="color:red;" class="button fit">注册代理</a></li>
+				<li><a href="http://uimcc.com/hsrj" style="color:red;">注册代理</a>&nbsp;&nbsp;<a href="http://uimcc.com/zfb-dx" style="color:red;">花呗套现</a></li>
 		</ul>
 		
 		<span>本站采用第三方播放器支持奇艺视频 腾讯 优酷 土豆 芒果 乐视 搜狐等会员视频播放,
