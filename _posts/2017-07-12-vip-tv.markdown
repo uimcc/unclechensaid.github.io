@@ -100,7 +100,7 @@ tag: [Travel, Blogging, Mountains]
             <h2>免VIP看会员视频</h2>
             <p>每个人的心中都有一部电影<br />
             我希望它是不收费的<br />
-            这既是 <a href="http://uimcc.com">UIMCC喔</a><br />
+            这既是 <a href="http://uimcc.com">UIMCC</a><br />
 	    <p>通知：<a href="http://uimcc.com/hsrj">全国代理招募火热招商中【注册就送SVIP】，想赚钱了解下</a></p>
 	    </p>
             <ul class="actions">
