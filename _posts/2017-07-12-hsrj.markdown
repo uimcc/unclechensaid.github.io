@@ -83,9 +83,9 @@ tag: [Travel, Blogging, Mountains]
             <div class="col-sm-6">
                 <div class="col-inner" data-sr="left">
                     <div class="section-heading">
-                        <span><h1>花生日记</h1></span><br><h2>汇聚全网优惠券<br>让你不仅省钱，还赚钱<br>
+                        <span><h1>花生日记</h1></span><h2>汇聚全网优惠券<br>让你不仅省钱，还赚钱<br>
                         <img src="/assets/img/hsrj/wechathsrj.png" alt="">
-                        <br>每天都是双十一<br>微信扫码下载花生日记app<br>收益从此开始</h2>
+                        <br>每天都是双十一<br>扫码下载花生日记app<br>收益从此开始！</h2>
                         <p>感受最极致的购物体验,下载注册输入华南地区负责人邀请码：4SLTL6O，<span class="color-pink">赠送</span>超级会员</p>
                     </div> <!-- .section-heading -->
                     <div class="section-content">
