@@ -85,8 +85,8 @@ tag: [Travel, Blogging, Mountains]
                     <div class="section-heading">
                         <span><h1>花生日记</h1></span><br><h2>汇聚全网优惠券<br>让你不仅省钱，还赚钱<br>
                         <img src="/assets/img/hsrj/wechathsrj.png" alt="">
-                        <br>每天都是双十一<br>微信扫码下载花生日记app<br>微信登录无需邀请码</h2>
-                        <p>感受最极致的购物体验,下载注册后加微信发送手机号后四位或输入邀请码：4SLTL6O，<span class="color-pink">赠送</span>超级会员</p>
+                        <br>每天都是双十一<br>微信扫码下载花生日记app<br>收益从此开始</h2>
+                        <p>感受最极致的购物体验,下载注册输入华南地区负责人邀请码：4SLTL6O，<span class="color-pink">赠送</span>超级会员</p>
                     </div> <!-- .section-heading -->
                     <div class="section-content">
                         <a class="btn btn-pink m-y-5" href="http://hsrjjsb001.com//?inviteCode=4SLTL6O" target="_blank" title="花生日记下载app" rel="nofollow" >高速下载通道</a>
@@ -197,11 +197,12 @@ tag: [Travel, Blogging, Mountains]
             <div class="col-sm-6">
                 <div class="col-inner">
                     <div class="section-heading">
-                        <h2>花生日记3.0更新</h2>
+                        <h2>花生日记3.2.0更新</h2>
                     </div> <!-- .section-heading -->
                     <div class="section-content">
-                        修复部分bug，全新赚钱模式<br>
-                        新增加品牌闪购和花生圈，更完美的购物体验<br>
+                        新增花生头条，人气宝贝直播<br>
+			花生小店上线，店主招募中<br>
+                        y优化专属客服界面，找到你的专属客服<br>
                         <p>对接全网商品，花生日记可以搜索你所有想找的商品。觉得不过瘾？复制宝贝标题搜索试试</p>
                         <p>使用搜索也有小技巧，觉得搜冰箱搜不出来，只能在淘宝APP复制标题反向查找？搜索电冰箱试试，嘿嘿，我们将在不断地版本更新中进行优化的亲</p>
                         <a class="btn btn-success" href="http://hsrjjsb001.com//?inviteCode=4SLTL6O" target="_blank" rel="nofollow">高速下载通道</a>
