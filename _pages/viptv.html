@@ -33,11 +33,21 @@ tag: [Travel, Blogging, Mountains]
             padding: 0px; /* 与内部元素的距离为0 */
             width: auto; /* 宽度根据元素内容调整 */
         }
+        .logo{
+            color: #ffffff;
+            margin: 0;
+            text-decoration: none;
+            font-weight: 700;
+        }
+        .logo span{
+            color: #c0334a;
+            font-weight: 400;
+        }
        /*ul li {float:left; padding: 10px; }*/
     </style>
     <script type="application/javascript" >
         function aaasda(){
-            $("#hqtip").html("声明：以下视频来源于腾讯视频网站，视频内容归原站所有！")
+            $("#hqtip").html("声明：视频来源于腾讯视频网站，视频内容归原站所有！")
             $.ajax({
                 headers: {
                     Accept: "application/json; charset=utf-8"
@@ -66,7 +76,7 @@ tag: [Travel, Blogging, Mountains]
                                         movieDiv+="<div class='col-xs-4 col-md-3'>" +
                                                 "<a class='thumbnail' onclick='tui(this)' id='tuis' style='border: 0px'  value='https://v.qq.com/x/cover/"+valo.fields.cover_id+".html'>" +
                                                 "<img class='mvimg'  src='"+valo.fields.new_pic_vt+"'></a>"+
-                                                "<div class='caption'><p style='overflow:hidden;'>"+valo.fields.c_title+"</p></div>"+
+                                                "<div class='caption' ><p style='overflow:hidden;'>"+valo.fields.c_title+"</p></div>"+
                                                 "</div>";
                                     });
                                     $("#ifj").html(movieDiv);
@@ -88,9 +98,10 @@ tag: [Travel, Blogging, Mountains]
 </head>
 <body class="text-center">
 <div class="">
-    <div class="col-md-12" style="width: 100%;height: 200px; background: dodgerblue">
-        <p style="color: honeydew;font-size: 36px; padding-top: 20px;">搜索看好片</p>
-        <marquee width=100%  direction=left align=middle><p style="color: #ffffff;">uimcc.com网站提醒您请复制视频地址到下方地址栏点击go即可播放,本站采用第三方播放器支持免费播放腾讯、爱奇艺、优酷等Vip视频播放</p></marquee>
+    <div class="col-md-12" style="width: 100%;height: 240px; background: dodgerblue">
+        <p style="color: honeydew;font-size: 36px; padding-top: 40px;"  class="logo">UI<span>MCC</span><b>，看好片</b></p>
+        <marquee width=47%  direction=left align=middle><p style="color: #ffffff;">uimcc.com网站提醒您请复制视频地址到下方地址栏点击go!即可播放,本站采用第三方播放器支持奇艺视频、腾讯、优酷、土豆、芒果、乐视、搜狐等会员视频播放, 播放中出现的广告均与本站无关
+            如遇视频不能正常播放请重新点击go!按钮.</p></marquee>
         <div class="col-md-6 col-md-offset-3" >
             <div class="input-group">
                 <input type="text" class="form-control" id="basic-url" placeholder="视频地址">
@@ -137,7 +148,7 @@ tag: [Travel, Blogging, Mountains]
 </div>
 <!--功能区-->
 <div class="">
-    <div class="col-md-6 col-md-offset-3 col-sm-4 col-sm-offset-4 page-header" style="margin-top: 20px;  /*border-bottom: solid 1px #eee; */font-size: 10px;">
+    <div class="col-md-6 col-md-offset-3 col-sm-4 col-sm-offset-4" style="margin-top: 20px;  /*border-bottom: solid 1px #eee; */font-size: 10px;">
         <div class="col-xs-3 col-md-2">
             <div class="media-left">
                 <a href="#">
@@ -170,7 +181,7 @@ tag: [Travel, Blogging, Mountains]
 <div class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-6" style="display: inline-block">
     <a id="hqtip" href="javascript:void(0)" onclick="aaasda()"> 获取当前热度视频</a>
 </div>
-<div id="ifj"  class="col-md-6 col-md-offset-3 col-sm-4 col-sm-offset-4 " style="margin-top: 20px;">
+<div id="ifj"  class="col-md-6 col-md-offset-3 col-sm-4 col-sm-offset-4  page-header" style="margin-top: 20px;">
 
 </div>
 <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
