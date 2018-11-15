@@ -6,14 +6,37 @@ date: 2017-07-12 12:55:00 +0300
 description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
 tag: [Travel, Blogging, Mountains]
 ---
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+  <title>Bootstrap 101 Template</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+  <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+  <!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+  <![endif]-->
+    <style>
+      .mvimg{width: 100px;}
+      ul {
+        list-style:none; /* 去掉ul前面的符号 */
+        margin: 0px; /* 与外界元素的距离为0 */
+        padding: 0px; /* 与内部元素的距离为0 */
+        width: auto; /* 宽度根据元素内容调整 */
+      }
+      ul li {float:left; padding: 10px;
+        width: 120px;}
+    </style>
     <script type="application/javascript" >
          function aaasda(){
-           alert(6666);
            $.ajax({
              headers: {
                Accept: "application/json; charset=utf-8"
@@ -21,7 +44,7 @@ tag: [Travel, Blogging, Mountains]
              url: 'https://list.video.qq.com/fcgi-bin/list_common_cgi',
              type: 'post',
              dataType: "JSONP",
-             data: { otype: "json", novalue: "1" ,platform:"1",version:"10000",intfname:"web_vip_movie_new",tid:"687",appkey:"c8094537f5337021",appid:"200010596",pagesize:"30",sort:"17"},
+             data: { otype: "json", novalue: "1" ,platform:"1",version:"10000",intfname:"web_vip_movie_new",tid:"687",appkey:"c8094537f5337021",appid:"200010596",pagesize:"30",sort:"9"},
              error: function(xhr) {
                alert('请求失败');
              },
@@ -31,17 +54,17 @@ tag: [Travel, Blogging, Mountains]
                  if(i=='jsonvalue'){
                    $.each(val, function(j, valj) {
                      if(j=='results'){
-                       var movieDiv;
+                       var movieDiv='';
                        $.each(valj, function(o, valo) {
                         /* $.each(valo, function(k, valk) {
                              if(k=='fields'){/!*下面遍历的是每一步视频信息*!/
                                alert(valk.c_title);
                              }
                          });*/
-                         console.info("影片【"+valo.fields.c_title+"】,地址:https://v.qq.com/x/cover/"+valo.fields.cover_id+".html");
-                         movieDiv+="<li><div>" +
-                           "<img height='200px' width='150px' src='"+valo.fields.horizontal_pic_url+"'>"+
-                           "<p>"+valo.fields.c_title+"</p>" +
+                         /*console.info("影片【"+valo.fields.c_title+"】,地址:https://v.qq.com/x/cover/"+valo.fields.cover_id+".html");*/
+                         movieDiv+="<li><div><a href='https://v.qq.com/x/cover/"+valo.fields.cover_id+".html'>" +
+                           "<img class='mvimg'  src='"+valo.fields.new_pic_vt+"'></a>"+
+                           "<p>"+valo.fields.c_title+"<span>"+valo.fields.second_title+"</span></p>" +
                            "</div></li>";
                        });
                        $("#ak").html(movieDiv);
@@ -55,12 +78,34 @@ tag: [Travel, Blogging, Mountains]
          }
     </script>
 </head>
-<body>
+<body class="text-center">
+  <div class="row">
+    <div class="col-md-12" style="width: 100%;height: 300px; background: dodgerblue">
+      <h1 style="color: honeydew">搜索看好片</h1>
+      <marquee width=400 behavior=alternate direction=left align=middle>弹来弹去跑马灯!</marquee>
+      <div class="col-md-4 col-md-offset-4">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search for...">
+          <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Go!</button>
+      </span>
+        </div><!-- /input-group -->
+      </div><!-- /.col-lg-6 -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">.col-md-6</div>
+    <div class="col-md-6">.col-md-6</div>
+  </div>
     <a href="#" onclick="aaasda()"> 点我</a>
     <div id="ifj">
-      <ui id="ak">
+      <ul id="ak">
 
-      </ui>
+      </ul>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
+
