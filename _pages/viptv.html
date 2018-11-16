@@ -207,8 +207,8 @@ tag: [Travel, Blogging, Mountains]
         <!-- Nav tabs -->
         <ul class="nav nav-tabs" role="tablist">
           <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">热门视频</a></li>
-          <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">音乐俩事</a></li>
-          <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">故事汇</a></li>
+          <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">音乐榜单</a></li>
+          <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">三两趣事</a></li>
         </ul>
         <!-- Tab panes -->
         <div class="tab-content">
@@ -220,7 +220,7 @@ tag: [Travel, Blogging, Mountains]
           <div role="tabpanel" class="tab-pane" id="profile">
             <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=450 src="//music.163.com/outchain/player?type=0&id=2515727191&auto=1&height=430"></iframe>
           </div>
-          <div role="tabpanel" class="tab-pane" id="messages">3</div>
+          <div role="tabpanel" class="tab-pane" id="messages">获取失败</div>
         </div>
       </div>
     </div>
@@ -237,6 +237,9 @@ tag: [Travel, Blogging, Mountains]
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
 <script src="https://cdn.bootcss.com/layer/3.1.0/layer.js"></script>
 <script>
+  $(function(){
+    aaasda();
+  })
   function play222(){
     var url=$("#basic-url").val()
     if(!url){
@@ -322,5 +325,6 @@ tag: [Travel, Blogging, Mountains]
 </script>
 </body>
 </html>
+
 
 
