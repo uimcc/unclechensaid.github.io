@@ -1,0 +1,35 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>网易音乐播放器</title>
+    <script type="text/javascript" src="//mat1.gtimg.com/libs/jquery/1.9.1/jquery.min.js"></script>
+</head>
+<body>
+<style type="text/css">
+    body {
+        margin:0px 0px 0px 0px;
+        font-family: '微软雅黑';
+    }
+</style>
+<link rel="stylesheet" href="//cdn.staticfile.org/aplayer/1.10.1/APlayer.min.css">
+<div id="aplayer"></div>
+<script src="//cdn.staticfile.org/aplayer/1.10.1/APlayer.min.js"></script>
+<script language="JavaScript">var music = new Array();
+$.ajax({
+    type: "GET",
+    url: 'https://api.mlwei.com/music/api/wy/?key=523077333&cache=1&type=songlist&id=2515727191',
+    dataType: 'json',
+    success: function(result){
+        var ap = new APlayer({
+            element: document.getElementById('aplayer'),
+            lrcType: 3,
+            volume: 1,
+            mutex: true,
+            autoplay: false,
+            audio: result.Body
+        });
+    }
+});
+</script>
+</body>
+</html>
