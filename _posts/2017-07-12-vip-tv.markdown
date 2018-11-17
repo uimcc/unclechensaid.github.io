@@ -22,6 +22,11 @@ tag: [Travel, Blogging, Mountains]
 
 
         $(function(){
+		layer.confirm('网站已更新全新版本看片更方便，此页面将不作维护更新，是否跳转主页（uimcc.com）', {
+		    btn: ['跳转新版本','不了'] //按钮
+		}, function(){
+		    window.location.href = "https://uimcc.com";
+		});
             /*var _t = encodeURI(encodeURI(title));*/
             debugger;
             var title = GetQueryString("name");
