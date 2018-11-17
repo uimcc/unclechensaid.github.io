@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="https://cdn.bootcss.com/layer/3.1.0/layer.js"></script>
+<style>
+    ul li{list-style-type:none;}
+</style>
+<body>
+<script>
+
+    $(function(){
+        var his=$.cookie('movieHistory');
+        var arr=his.split(',');
+        for(var i=0;i<arr.length;i++)
+        {
+            $("#history ul").append('<li class="list-group-item text-center" onclick="pa(this)">'+arr[i]+'</li>')
+        }
+        $("#history ul").append('<li class="list-group-item text-center" style="color: red;" ><a onclick="clearHis()">清除播放历史</a></li>')
+    })
+
+    function pa(ob){
+        parent.ten(ob);
+    }
+
+    function clearHis(){
+        layer.confirm('您确定要删除播放厉害？', {
+            btn: ['是的','我在看看'] //按钮
+        }, function(){
+            if ($.removeCookie('movieHistory', { path: '/' })) {
+                layer.msg("已删除");
+            } else {
+                layer.msg("删除失败");
+            }
+        });
+    }
+</script>
+<div id="history">
+    <ul class="list-group">
+    </ul>
+</div>
+</body>
+</html>
