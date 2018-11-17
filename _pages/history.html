@@ -29,7 +29,7 @@
     }
 
     function clearHis(){
-        layer.confirm('您确定要删除播放厉害？', {
+        layer.confirm('您确定要删除播放历史？', {
             btn: ['是的','我在看看'] //按钮
         }, function(){
             if ($.removeCookie('movieHistory', { path: '/' })) {
