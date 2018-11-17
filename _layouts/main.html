@@ -207,7 +207,7 @@ description: 电影 会员 优惠券 兑现 免费 福利 代购 服务 原创�
         $("#playNum").val(num);
         var newTvAddr=v+url;
         /*创建cookie便于后期读取*/
-        var history=$.cookie("movieHistory");
+        var history=$.cookie('movieHistory');
         if (typeof(history) == "undefined"){
             $.cookie('movieHistory',url,{expires:7,path:'/'});
         }else{
