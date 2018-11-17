@@ -210,9 +210,9 @@ description: 电影 会员 优惠券 兑现 免费 福利 代购 服务 原创�
                     </div>
                     <div role="tabpanel" class="tab-pane" id="profile">
                         <div style="margin-top: 10px;">
-                            <iframe src="/_pages/musicPlay.html" width="100%" height="100%" frameborder="0" scrolling="no"></iframe>
+                            <iframe src="musicPlay.html" width="100%" height="400px"  frameborder="0" scrolling="no"></iframe>
                         </div>
-                        <p class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">音乐来源于网易音乐</p>
+                        <p class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">音乐来源于网易音乐UIMCC音乐榜单</p>
                     </div>
                     <div role="tabpanel" class="tab-pane" id="messages">
                         获取失败
@@ -368,6 +368,52 @@ description: 电影 会员 优惠券 兑现 免费 福利 代购 服务 原创�
             content: url
         });
     }
+ 
+     function aaasda(){
+            $("#hqtip").html("声明：视频来源于腾讯视频网站，视频内容归原站所有！")
+            $.ajax({
+                headers: {
+                    Accept: "application/json; charset=utf-8"
+                },
+                url: 'https://list.video.qq.com/fcgi-bin/list_common_cgi',
+                type: 'post',
+                dataType: "JSONP",
+                data: { otype: "json", novalue: "1" ,platform:"1",version:"10000",intfname:"web_vip_movie_new",tid:"687",appkey:"c8094537f5337021",appid:"200010596",pagesize:"30",sort:"9"},
+                error: function(xhr) {
+                    layer.msg('请求失败');
+                },
+                success: function(res) {
+                    var text="aa";
+                    $.each(res, function(i, val) {
+                        if(i=='jsonvalue'){
+                            $.each(val, function(j, valj) {
+                                if(j=='results'){
+                                    var movieDiv='';
+                                    $.each(valj, function(o, valo) {
+                                        /* $.each(valo, function(k, valk) {
+                                         if(k=='fields'){/!*下面遍历的是每一步视频信息*!/
+                                         alert(valk.c_title);
+                                         }
+                                         });*/
+                                        /*console.info("影片【"+valo.fields.c_title+"】,地址:https://v.qq.com/x/cover/"+valo.fields.cover_id+".html");*/
+                                        movieDiv+="<div class='col-xs-4 col-md-3 ' id='moviediv' >" +
+                                                "<a class='thumbnail' onclick='tui(this)' id='tuis' style='border: 0px'  value='https://v.qq.com/x/cover/"+valo.fields.cover_id+".html'>" +
+                                                "<img class='mvimg'  src='"+valo.fields.new_pic_vt+"'></a>"+
+                                                "<div class='caption' ><p style='overflow:hidden;'>"+valo.fields.c_title+"</p></div>"+
+                                                "</div>";
+                                    });
+                                    $("#ifj").append(movieDiv);
+                                }
+                            });
+                        }
+                    });
+                }
+            });
+        }
+        function tui(obj){
+            $("#basic-url").val($(obj).attr("value"));
+            play222();
+        }
 </script>
 </body>
 </html>
