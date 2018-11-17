@@ -25,7 +25,7 @@ description: 电影 会员 优惠券 兑现 免费 福利 代购 服务 原创�
     <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
     <script src="https://cdn.bootcss.com/layer/3.1.0/layer.js"></script>
-    <script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery-cookie/1.2/jquery.cookie.min.js"></script>
     <style>
         .mvimg{ max-width: 98%; height: 215px;}
         .carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img {
@@ -207,7 +207,7 @@ description: 电影 会员 优惠券 兑现 免费 福利 代购 服务 原创�
         $("#playNum").val(num);
         var newTvAddr=v+url;
         /*创建cookie便于后期读取*/
-        var history=$.cookie('movieHistory');
+        var history=$.cookie("movieHistory");
         if (typeof(history) == "undefined"){
             $.cookie('movieHistory',url,{expires:7,path:'/'});
         }else{
