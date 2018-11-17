@@ -86,7 +86,7 @@ tag: [Travel, Blogging, Mountains]
                         <span><h1>花生日记</h1></span><h2>汇聚全网优惠券<br>让你不仅省钱，还赚钱<br>
                         <img src="/assets/img/hsrj/wechathsrj.png" alt="">
                         <br>每天都是双十一<br>扫码下载官方app<br>内邀码：4SLTL6O</h2>
-                        <p>如果每天只邀请一位好友注册会员，一个月就有30个会员，按一个月单个人购物一次均最低的收益一元来算，一个月你能收益30元，后期你不邀请好友照样每月收益30元！如果你依然坚持在邀请会员呢？是300还是3000。现在注册还<span class="color-pink">赠送</span>超级会员+网站</p>
+                        <p>如果每天只邀请一位好友注册会员，一个月就有30个会员，按一个月单个人购物一次均最低的收益一元来算，一个月你能收益30元，后期你不邀请好友照样每月收益30元！如果你依然坚持在邀请会员呢？是300还是3000。现在注册还将<span class="color-pink">赠送</span>代理名额+网站</p>
                     </div> <!-- .section-heading -->
                     <div class="section-content">
                         <a class="btn btn-pink m-y-5" href="http://hsrjjsb001.com//?inviteCode=4SLTL6O" target="_blank" title="花生日记下载app" rel="nofollow" >高速下载通道</a>
