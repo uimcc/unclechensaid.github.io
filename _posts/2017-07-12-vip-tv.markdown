@@ -27,10 +27,10 @@ tag: [Travel, Blogging, Mountains]
 		}, function(){
 		    window.location.href = "https://uimcc.com";
 		});
-            /*var _t = encodeURI(encodeURI(title));*/
+            /*var _t = encodeURI(encodeURI(title));
             debugger;
             var title = GetQueryString("name");
-            var titles = decodeURI(decodeURI(title));
+            var titles = decodeURI(decodeURI(title));*/
         })
 
         function GetQueryString(name) {
