@@ -136,7 +136,7 @@ tag: [Travel, Blogging, Mountains]
             <p>通知：<a href="http://uimcc.com/hsrj">全国代理招募火热招商中【注册就送SVIP】，想赚钱了解下</a></p>
             </p>
             <ul class="actions">
-                <li><a href="#one" class="button special">开始观看</a></li>
+                <li><a href="http://uimcc.com" class="button special">网站已改版升级，此页面将不作维护升级，点击此处跳转新页面（uimcc.com）</a></li>
             </ul>
         </div>
     </section>
@@ -148,7 +148,7 @@ tag: [Travel, Blogging, Mountains]
             <input type="hidden" value="0" id="playNum"/>
             <ul class="actions vertical">
                 <li><input type="text" id="basicurl" value="https://v.youku.com/v_show/id_XMzcwNjg5MDUyNA==.html?spm=a2hmv.20009921.yk-slide-86993.5~5!4~5~5!2~A"  placeholder="视频地址..." style="border-radius: 0px;border-color:#fff;float: left;"></li>
-                <li><a href="#" onclick="aaa()" class="button fit">播放视频</a></li>
+                <li><a href="http://uimcc.com" onclick="" class="button fit">网站已改版升级，此页面将不作维护升级，点击此处跳转新页面（uimcc.com）</a></li>
                 <li><a href="http://uimcc.com/hsrj" style="color:red;">注册代理</a>&nbsp;&nbsp;<a href="http://uimcc.com/zfb-dx" style="color:red;">花呗套现</a></li>
             </ul>
 		
