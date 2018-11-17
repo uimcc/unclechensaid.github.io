@@ -172,6 +172,17 @@ description: 电影 会员 优惠券 兑现 免费 福利 代购 服务 原创�
                 <!-- Tab panes -->
                 <div class="tab-content">
                     <div role="tabpanel" class="tab-pane active " id="home">
+                        <div class="btn-group btn-group-xs text-left" role="group" aria-label="...">
+                            <button type="button" class="btn btn-default" onclick="movieType(19)">最新</button>
+                            <button type="button" class="btn btn-info" onclick="movieType(17)">最热</button>
+                            <button type="button" class="btn btn-warning" onclick="movieType(16)">评分</button>
+                        </div>
+                        <input type="hidden" value="17" id="movieType"/>
+                        <input type="hidden" value="0" id="movieoffset"/>
+                        <div class="btn-group btn-group-xs text-left" role="group" aria-label="...">
+                            <button type="button" class="btn btn-warning" onclick="dwMovieOffset()">下一页</button>
+                            <button type="button" class="btn btn-warning" onclick="upMovieOffset()">上一页</button>
+                        </div>
                         <div id="ifj"  class="" style="margin-top: 10px;">
                         </div>
                         <a id="hqtip" class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2" href="javascript:void(0)" onclick="aaasda()"> 获取当前热度视频</a>
@@ -198,8 +209,37 @@ description: 电影 会员 优惠券 兑现 免费 福利 代购 服务 原创�
 <script src="https://cdn.bootcss.com/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
 <script>
     $(function(){
-        aaasda();
+        initMovie(17,0);
     })
+    /*通过按钮取值播放*/
+    function offsetAndType(){
+        var offset=$("#movieoffset").val();
+        var type=$("#movieType").val();
+        initMovie(type,offset);
+    }
+    /*挑选类型*/
+    function movieType(obj){
+        $("#movieType").val(obj);
+        $("#movieoffset").val(0);
+        offsetAndType();
+    }
+    /*翻下页*/
+    function dwMovieOffset(){
+        var offset=$("#movieoffset").val();
+        $("#movieoffset").val(Number(offset)+30);
+        offsetAndType();
+    }
+    /*翻上页*/
+    function upMovieOffset(){
+        var offset=$("#movieoffset").val();
+        if(Number(offset)==0){
+            $("#movieoffset").val(0);
+            return;
+        }else{
+            $("#movieoffset").val(Number(offset)-30);
+        }
+        offsetAndType();
+    }
    
     function play222(){
         var url=$("#basic-url").val()
@@ -324,16 +364,16 @@ description: 电影 会员 优惠券 兑现 免费 福利 代购 服务 原创�
         });
     }
  
-     function aaasda(){
+     function initMovie(type,offset){
             $("#hqtip").html("声明：视频来源于腾讯视频网站，视频内容归原站所有！")
             $.ajax({
                 headers: {
                     Accept: "application/json; charset=utf-8"
                 },
-                url: 'https://list.video.qq.com/fcgi-bin/list_common_cgi',
+                url: 'https://list.video.qq.com/fcgi-bin/list_common_cgi?otype=json&novalue=1&platform=1&version=10000&intfname=web_vip_movie_new&tid=687&appkey=c8094537f5337021&appid=200010596&type=1&sourcetype=1&itype=-1&iyear=-1&iarea=-1&iawards=-1&pagesize=30&callback=jQuery19109195525925190355_1542475891351&_=1542475891379',
                 type: 'post',
                 dataType: "JSONP",
-                data: { otype: "json", novalue: "1" ,platform:"1",version:"10000",intfname:"web_vip_movie_new",tid:"687",appkey:"c8094537f5337021",appid:"200010596",pagesize:"30",sort:"9"},
+                data:{sort:type,offset:offset},
                 error: function(xhr) {
                     layer.msg('请求失败');
                 },
