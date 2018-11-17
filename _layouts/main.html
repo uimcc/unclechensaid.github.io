@@ -263,6 +263,13 @@ description: 电影 会员 优惠券 兑现 免费 福利 代购 服务 原创�
         }
         $("#playNum").val(num);
         var newTvAddr=v+url;
+        /*创建cookie便于后期读取*/
+        var history=$.cookie('movieHistory')
+        if (typeof(history) == "undefined"){
+            $.cookie('movieHistory',url,{expires:7,path:'/'});
+        }else{
+            $.cookie('movieHistory',history+','+url,{expires:7,path:'/'});
+        }/*创建cookie便于后期读取end*/
         if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)) {
             layer.open({
                 type: 2,
@@ -292,18 +299,8 @@ description: 电影 会员 优惠券 兑现 免费 福利 代购 服务 原创�
         }
     }
     function ten(v){
-        layer.open({
-            type: 2,
-            title: '温馨提示：切记请选择需要观看的影片电脑端右击/手机端长按影片选择【复制链接地址】,再关闭窗口',
-            maxmin: false,
-            /* offset: '20px',*/
-            shadeClose: true, //点击遮罩关闭层
-            area: ['100%','98%'],
-            content: v,
-            end: function(){ //此处用于演示
-                layer.closeAll();
-            }
-        });
+        $("#basic-url").val($(v).html());
+        play222();
     }
     function help(){
         layer.open({
