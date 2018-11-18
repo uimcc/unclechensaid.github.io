@@ -47,6 +47,9 @@ description: 电影 会员 优惠券 兑现 免费 福利 代购 服务 原创�
             color: #c0334a;
             font-weight: 400;
         }
+        .nav span{cursor: pointer;cursor: hand;}
+        /*主题颜色设置*/
+        .seMenuTy , .main-head{color: dodgerblue;}
         /*ul li {float:left; padding: 10px; }*/
     </style>
 </head>
@@ -165,31 +168,31 @@ description: 电影 会员 优惠券 兑现 免费 福利 代购 服务 原创�
             <div>
                 <!-- Nav tabs -->
                 <nav class=" navbar-default navbar-fixed-bottom" style="border-top: 1px coral">
-                    <ul class="nav" role="tablist" style="padding-top: 5px; margin-bottom: -8px;">
+                    <ul class="nav" role="tablist" style="padding-top: 6px; margin-bottom: -7px;">
                         <li style="float: left ;"   role="presentation" class="active col-md-4 col-sm-4 col-xs-4">
                             <div >
-                                <a href="#home" style="color: red;" aria-controls="home" role="tab" data-toggle="tab">
+                                <span href="#home" onclick="menuTy(this)" id="hotMovie" aria-controls="home" role="tab" data-toggle="tab">
                                     <span class="glyphicon glyphicon-film" aria-hidden="true"></span>
                                     <p style="font-size: 10px;">热门视频</p>
-                                </a>
+                                </span>
                             </div>
                             <!--<a href="#home" style="color: red;" aria-controls="home" role="tab" data-toggle="tab">热门视频</a>-->
                         </li>
                         <li style="float: left"  class="col-md-4 col-sm-4 col-xs-4" role="presentation" >
                             <div >
-                                <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
+                                <span href="#profile" onclick="menuTy(this)" aria-controls="profile" role="tab" data-toggle="tab">
                                     <span class="glyphicon glyphicon-music" aria-hidden="true"></span>
                                     <p style="font-size: 10px;">音乐榜单</p>
-                                </a>
+                                </span>
                             </div>
                             <!--<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">音乐榜单</a>-->
                         </li>
                         <li style="float: left"  class="col-md-4 col-sm-4 col-xs-4"  role="presentation" >
                             <div >
-                                <a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">
+                                <span href="#messages" onclick="menuTy(this)" aria-controls="messages" role="tab" data-toggle="tab">
                                     <span class="glyphicon glyphicon-unchecked" aria-hidden="true"></span>
                                     <p style="font-size: 10px;">三两趣事</p>
-                                </a>
+                                </span>
                             </div>
                             <!--<a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">三两趣事</a>-->
                         </li>
@@ -241,7 +244,13 @@ description: 电影 会员 优惠券 兑现 免费 福利 代购 服务 原创�
 <script>
     $(function(){
         initMovie(17,0);
+        $("#hotMovie").addClass("seMenuTy");
     })
+    /*更改底部菜单选中颜色*/
+    function menuTy(obj){
+        $(obj).addClass("seMenuTy");
+        $(obj).parent().parent().siblings().contents().find("span").removeClass("seMenuTy");
+    }
     /*通过按钮取值播放*/
     function offsetAndType(){
         var offset=$("#movieoffset").val();
